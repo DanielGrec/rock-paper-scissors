@@ -105,6 +105,18 @@ function game(playerSelect) {
 	}
 }
 
+const button = document.querySelector("btn");
+
+function gameReset() {
+	message.textContent = "";
+	scoreComputer.textContent = 0;
+	scorePlayer.textContent = 0;
+	playerScore = 0;
+	computerScore = 0;
+	selectionComputer.textContent = "";
+	selectionPlayer.textContent = "";
+}
+
 /* Helper Functions */
 function random(number) {
 	return Math.floor(Math.random() * number + 1);

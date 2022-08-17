@@ -100,3 +100,23 @@ p {
 	font-size: 20px;
 	font-weight: 400;
 }
+#btn-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+#btn {
+	padding: 10px 20px;
+	font-weight: bold;
+	font-size: 1rem;
+	border-radius: 5px;
+	color: var(--color-sub);
+	border: 2px solid var(--color-sub);
+	background-color: transparent;
+}
+#btn:hover {
+	cursor: pointer;
+	background-color: white;
+	transform: translateY(5px);
+}
