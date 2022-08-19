@@ -17,6 +17,7 @@ html {
 }
 
 body {
+	padding: 5em;
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	background-color: var(--main-color);
